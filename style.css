@@ -1,0 +1,25 @@
+.vaga {
+    font-family: 'Kosugi Maru', sans-serif;
+    padding: 12px;
+    margin: 0;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 224px;
+    height: 47px;
+    top: 20px;
+    right: 20%;
+    position: absolute;
+    box-sizing: border-box;
+    text-align: center;
+    text-transform: uppercase;
+    color: #548cc3; 
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 0 1.5em white, inset 0 0 .5em #000;
+    transition: translate 0s, box-shadow 0s;
+}
+.vaga:hover,
+.vaga:focus {
+    transition-delay: 0s, 1s;
+    transform: scale(1.1);
+}
